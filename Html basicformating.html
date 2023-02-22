@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example HTML Document</title>
+	<style>
+		/* Set font and font width */
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+		}
+		/* Set background color */
+		body {
+			background-color: #f2f2f2;
+		}
+		/* Set colors for different elements */
+		h1 {
+			color: red;
+		}
+		h2 {
+			color: blue;
+		}
+		p {
+			color: green;
+		}
+		/* Set bold, italics, and underline */
+		b {
+			font-weight: bold;
+		}
+		i {
+			font-style: italic;
+		}
+		u {
+			text-decoration: underline;
+		}
+		/* Set horizontal line */
+		hr {
+			border: none;
+			border-top: 1px solid black;
+		}
+		/* Set blinking text */
+		.blink {
+			animation: blinker 0.6s linear infinite;
+		}
+		@keyframes blinker {
+			50% {
+				opacity: 0;
+			}
+		}
+		/* Set marquee text */
+		.marquee {
+			animation: marquee 5s linear infinite;
+		}
+		@keyframes marquee {
+			0% {
+				transform: translateX(0);
+			}
+			100% {
+				transform: translateX(-100%);
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- Set headings -->
+	<h1>Heading 1</h1>
+	<h2>Heading 2</h2>
+	<!-- Set bold, italics, and underline -->
+	<p><b>Bold text</b></p>
+	<p><i>Italic text</i></p>
+	<p><u>Underlined text</u></p>
+	<!-- Set colors for different elements -->
+	<p>Green text</p>
+	<!-- Set line break -->
+	<p>First line<br>Second line</p>
+	<!-- Set horizontal line -->
+	<hr>
+	<!-- Set blinking text -->
+	<p class="blink">Blinking text</p>
+	<!-- Set marquee text -->
+	<div class="marquee">This is a marquee text. This is a marquee text. This is a marquee text. This is a marquee text. This is a marquee text. This is a marquee text. This is a marquee text.</div>
+</body>
+</html>
+
